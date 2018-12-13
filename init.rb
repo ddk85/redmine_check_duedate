@@ -13,7 +13,7 @@ Redmine::Plugin.register :redmine_check_due_date do
   name 'Redmine check due_date'
   author 'Dmitry Kuznetsov'
   description 'Check due_date field if issue open and due_date < today you cannot save issue'
-  version '0.0.1'
+  version '0.0.2'
   url 'https://github.com/ddk85/redmine_check_duedate'
   author_url 'https://github.com/ddk85/redmine_check_duedate'
 end
